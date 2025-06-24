@@ -25,4 +25,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest --cov=services tests/
+        PYTHONPATH=. pytest --cov=services tests/
